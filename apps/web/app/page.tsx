@@ -1,6 +1,6 @@
 import Image, { type ImageProps } from "next/image";
 import { Button } from "@repo/ui/button";
-
+import {TextInput } from "@repo/ui/input"
 
 
 export default function Home() {
@@ -8,7 +8,7 @@ export default function Home() {
 <div style={{
   height:"100vw",
 }}>
-  < input type="checkbox" id="themeToggle"  />
+  <TextInput placeholder="join room" size="big"></TextInput>
 </div>
   );
 }
